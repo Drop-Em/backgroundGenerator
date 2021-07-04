@@ -6,7 +6,7 @@ const gradient = document.querySelector("#gradient");
 const changeBackground = () => {
    gradient.style.background = `linear-gradient(to right, ${color1.value}, ${color2.value})`;
 
-   css.textContent = `${gradient.style.background} ;`;
+   css.textContent = `${gradient.style.background};`;
 };
 
 color1.addEventListener("input", changeBackground);
